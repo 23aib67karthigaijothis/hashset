@@ -1,0 +1,17 @@
+
+import java.util.LinkedHashSet;
+
+public class setdemo {
+
+    public static void main(String[] args) {
+
+        LinkedHashSet<String> h = new LinkedHashSet<>();
+
+        h.add("Ram");
+        h.add("Abi");
+        h.add("Dhansika");
+        h.add("Karthika");
+
+        System.out.println(h);
+    }
+}

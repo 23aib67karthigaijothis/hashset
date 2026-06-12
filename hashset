@@ -1,0 +1,16 @@
+import java.util.HashSet;
+
+public class setdemo {
+
+    public static void main(String[] args) {
+
+        HashSet<String> h = new HashSet<>();
+
+        h.add("Ram");
+        h.add("abi");
+        h.add("dhansika");
+        h.add("karthika");
+
+        System.out.println("HashSet Elements: " + h);
+    }
+}

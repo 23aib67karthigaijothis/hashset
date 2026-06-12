@@ -1,0 +1,16 @@
+import java.util.TreeSet;
+
+public class setdemo {
+
+    public static void main(String[] args) {
+
+        TreeSet<Integer> h = new TreeSet<>();
+
+        h.add(89);
+        h.add(890);
+        h.add(4567);
+        h.add(7890);
+
+        System.out.println(h);
+    }
+}
